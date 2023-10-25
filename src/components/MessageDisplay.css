@@ -1,0 +1,48 @@
+/* MessageDisplay.css */
+
+/* Style each message container */
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* Style the user avatar */
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+/* Style the message content */
+.message-content {
+  flex: 1;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style the user name */
+.user-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.message-display {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px; /* Add space to the left of the chatbox */
+}
+
+.chat-message {
+  background-color: #e0e0e0;
+  padding: 5px; /* Adjust the padding as needed for spacing */
+  margin: 5px 0; /* Adjust the margin for spacing between messages */
+  border-radius: 5px;
+  display: inline-block; /* Display as inline-block to fit content width */
+  max-width: 70%; /* Set a maximum width to prevent overly wide boxes */
+  word-break: break-word; /* Wrap long words */
+}
